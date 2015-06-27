@@ -1,6 +1,6 @@
 # PagedHorizontalView
 
-[![CI Status](http://img.shields.io/travis/Mohamed Afifi/PagedHorizontalView.svg?style=flat)](https://travis-ci.org/Mohamed Afifi/PagedHorizontalView)
+[![CI Status](http://img.shields.io/travis/mohamede1945/PagedHorizontalView.svg?style=flat)](https://travis-ci.org/mohamede1945/PagedHorizontalView)
 [![Version](https://img.shields.io/cocoapods/v/PagedHorizontalView.svg?style=flat)](http://cocoapods.org/pods/PagedHorizontalView)
 [![License](https://img.shields.io/cocoapods/l/PagedHorizontalView.svg?style=flat)](http://cocoapods.org/pods/PagedHorizontalView)
 [![Platform](https://img.shields.io/cocoapods/p/PagedHorizontalView.svg?style=flat)](http://cocoapods.org/pods/PagedHorizontalView)

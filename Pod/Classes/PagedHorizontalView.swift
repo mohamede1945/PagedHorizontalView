@@ -10,9 +10,10 @@ import UIKit
 
 /**
 Represents a horizontal scoller view that makes its collection view cells full screen
-and can optionally wire UIPageControl and a previous and next buttons.
+and can optionally wire UIPageControl and a previous and next UIButtons.
 
-It doesn't affect the appearance of the controls and doesn't implement the collection view data source.
+It doesn't affect the appearance of the controls and doesn't implement the collection view data source
+to keep full flexibility while doing the repeated work for a horizontal scroller.
 
 @author mohamede1945
 

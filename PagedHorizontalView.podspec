@@ -9,20 +9,20 @@
 
 Pod::Spec.new do |s|
   s.name             = "PagedHorizontalView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of PagedHorizontalView."
+  s.version          = "1.0.0"
+  s.summary          = "A horizontal scroller with optional pageControl and/or next and previous buttons"
   s.description      = <<-DESC
-                       An optional longer description of PagedHorizontalView
+A horizontal scoller view that makes its collection view cells full screen
+and can optionally wire UIPageControl and a previous and next UIbuttons.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+It doesn't affect the appearance of the controls and doesn't implement the collection view data source to keep full flexibility while doing the repeated work for a horizontal scroller.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PagedHorizontalView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/mohamede1945/PagedHorizontalView"
+  # s.screenshots     = "https://github.com/mohamede1945/PagedHorizontalView/raw/master/screenshots/demo.gif"
   s.license          = 'MIT'
-  s.author           = { "Mohamed Afifi" => "mohamede1945@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PagedHorizontalView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Mohamed Afifi" => "mohamede1945" }
+  s.source           = { :git => "https://github.com/mohamede1945/PagedHorizontalView.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/mohamede1945'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -32,7 +32,4 @@ Pod::Spec.new do |s|
     'PagedHorizontalView' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
