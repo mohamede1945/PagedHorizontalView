@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A596DD0A3042F9279C7D68B3"
+               BlueprintIdentifier = "ACA068114723ABA3961206B6"
                BuildableName = "PagedHorizontalView.bundle"
                BlueprintName = "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView"
                ReferencedContainer = "container:Pods.xcodeproj">
