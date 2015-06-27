@@ -9,7 +9,10 @@
 import UIKit
 
 /**
-Represents the paged horizontal view class.
+Represents a horizontal scoller view that makes its collection view cells full screen
+and can optionally wire UIPageControl and a previous and next buttons.
+
+It doesn't affect the appearance of the controls and doesn't implement the collection view data source.
 
 @author mohamede1945
 
@@ -17,24 +20,28 @@ Represents the paged horizontal view class.
 */
 public class PagedHorizontalView: UIView {
 
+    /// Represents the page control property.
     @IBOutlet public weak var pageControl: UIPageControl? {
         didSet {
             pageControl?.addTarget(self, action: "pageChanged:", forControlEvents: .ValueChanged)
         }
     }
 
+    /// Represents the next button property.
     @IBOutlet public weak var nextButton: UIButton? {
         didSet {
             nextButton?.addTarget(self, action: "goToNextPage:", forControlEvents: .TouchUpInside)
         }
     }
 
+    /// Represents the previous button property.
     @IBOutlet public weak var previousButton: UIButton? {
         didSet {
             previousButton?.addTarget(self, action: "goToPreviousPage:", forControlEvents: .TouchUpInside)
         }
     }
 
+    /// Represents the collection view property.
     @IBOutlet public weak var collectionView: UICollectionView! {
         didSet {
             let flowLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
@@ -87,6 +94,12 @@ public class PagedHorizontalView: UIView {
         moveToPage(currentIndex - 1, animated: true)
     }
 
+    /**
+    Move to a specific page.
+
+    :param: page     The page parameter.
+    :param: animated The animated parameter to control whether the transition should be animated or not.
+    */
     public func moveToPage(page: Int, animated: Bool) {
         // outside the range
         if page < 0 || page >= collectionView.numberOfItemsInSection(0) {
