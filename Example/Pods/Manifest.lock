@@ -1,0 +1,14 @@
+PODS:
+  - PagedHorizontalView (0.1.0)
+
+DEPENDENCIES:
+  - PagedHorizontalView (from `../`)
+
+EXTERNAL SOURCES:
+  PagedHorizontalView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PagedHorizontalView: 1b62529dc43333d698df9f9d96ca90a37d360491
+
+COCOAPODS: 0.37.2
