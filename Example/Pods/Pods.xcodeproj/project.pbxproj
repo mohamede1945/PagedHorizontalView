@@ -7,341 +7,396 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1663F03E9E5E06D6DAD1BE7E /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E2C5AEE9364C1EEB7B4E1C /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3581C87EE6506A1625AAC313 /* Pods-PagedHorizontalView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9115E9FA10BF290323BBC652 /* Pods-PagedHorizontalView_Tests-dummy.m */; };
-		3CF829012E6FFC509C5D7D8E /* PagedHorizontalView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78CC8455BE3E5554953F73EB /* PagedHorizontalView.bundle */; };
-		458E21458D411591B8C78D87 /* Pods-PagedHorizontalView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39C5BF0700517517640891 /* Pods-PagedHorizontalView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5216A35FE35D612A7F9FA455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B38037974EA553A1F6830C /* Foundation.framework */; };
-		54D91EDC1B3EF93C009C8985 /* PagedHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D91EDB1B3EF93C009C8985 /* PagedHorizontalView.swift */; };
-		54D91EDD1B3EF93C009C8985 /* PagedHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D91EDB1B3EF93C009C8985 /* PagedHorizontalView.swift */; };
-		5E7CF184D2BDE18F67C21F48 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F31F6A383ACD943D243BAF89 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m */; };
-		6036463D99AC9C4F04504E45 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78F4BFBF1482B4A87344F12 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A32B0E90F90DF2A09A646D7 /* Pods-PagedHorizontalView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 003BFE2C0EE08106F929C3DC /* Pods-PagedHorizontalView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A793E488C9ABFEBA2E319F9 /* PagedHorizontalView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 672D6E3C6390EF6405EC080A /* PagedHorizontalView.bundle */; };
-		7AE43514809CACB55A785D69 /* Pods-PagedHorizontalView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D8C2410FB33C861375002 /* Pods-PagedHorizontalView_Example-dummy.m */; };
-		A654FB4982C62E2D73FAD321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B38037974EA553A1F6830C /* Foundation.framework */; };
-		DA75EAC8B7D77B8148762590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B38037974EA553A1F6830C /* Foundation.framework */; };
-		F2DBCF8C1A333146BE38C347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B38037974EA553A1F6830C /* Foundation.framework */; };
-		FFEE16094088E39A8ECFF71D /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9DC981B679D82ADD464D59 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m */; };
+		03AB74CF465029B2CEADA50C /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75B2E0A17DECA0A58FD6AF /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m */; };
+		05BEF92B751671FAE9400D02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399CCA8A9EB0AAE52F2EEB8 /* Foundation.framework */; };
+		0A8B9018C713EAD2DA9BA237 /* PagedHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92249E68657A4371AE825C7 /* PagedHorizontalView.swift */; };
+		3A6086608CF6D7825502F643 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399CCA8A9EB0AAE52F2EEB8 /* Foundation.framework */; };
+		3FF56E5CB3A484FA16D889EC /* PagedHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92249E68657A4371AE825C7 /* PagedHorizontalView.swift */; };
+		4161E562A6BF2673839448A6 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2393AA73489E297328E80 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C1C465C6CD5573B2FCF297 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456B1179DE47E0C7EC86FAD /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m */; };
+		64766CFD49386F9E8C4A54B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399CCA8A9EB0AAE52F2EEB8 /* Foundation.framework */; };
+		723135F96818743B180E2C9A /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82363CBD911933FB999C8105 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90612D342AE7A1053E9ECB01 /* Pods-PagedHorizontalView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B15819B6B3C66BE2E790C9 /* Pods-PagedHorizontalView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF2B13BBE818CC6342220DC /* Pods-PagedHorizontalView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AC78799F37C34AF78FFD91 /* Pods-PagedHorizontalView_Example-dummy.m */; };
+		B27356FA50A9D2422B9A5AD8 /* PagedHorizontalView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7218A2B3FF3D389254DF5D93 /* PagedHorizontalView.bundle */; };
+		B39D64504EFE54914C007F83 /* PagedHorizontalView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7945AD602843B8D8D6A0320A /* PagedHorizontalView.bundle */; };
+		CBB0FFBCA27AE651754FBBF6 /* Pods-PagedHorizontalView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2476A577664B8223ADAB3CF1 /* Pods-PagedHorizontalView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5868DAFD94F52E997EE5558 /* Pods-PagedHorizontalView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F655612E8737A35B1653677 /* Pods-PagedHorizontalView_Tests-dummy.m */; };
+		F4DBBC796364D71D9B2AF646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399CCA8A9EB0AAE52F2EEB8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		420ECF0871CCEFA9D38407B2 /* PBXContainerItemProxy */ = {
+		059C75050BE0D619D766533C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 06EF27D4F656C09B4CAF6784 /* Project object */;
+			containerPortal = FCD768C5E94D8DC773AE300F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 768A7067EC000F90CB08411B;
-			remoteInfo = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
-		};
-		7A8F65E87B5EAAD0543FB597 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06EF27D4F656C09B4CAF6784 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 605AD9C7FB61914C1F2418D3;
+			remoteGlobalIDString = 8B737BD84F2A9524083207F6;
 			remoteInfo = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView";
 		};
-		8538EDC82A3D03DB1767EFB9 /* PBXContainerItemProxy */ = {
+		1431EDAFCADADA90B57F1FD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 06EF27D4F656C09B4CAF6784 /* Project object */;
+			containerPortal = FCD768C5E94D8DC773AE300F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C27F8116B0BB2BDBBC2153C0;
+			remoteGlobalIDString = FA28F1DE30CCD3637F6636A4;
 			remoteInfo = "Pods-PagedHorizontalView_Example-PagedHorizontalView";
 		};
-		9D34B0F88075D072FF2FB8FE /* PBXContainerItemProxy */ = {
+		6384ED73FEA5B45B6BC4FE74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 06EF27D4F656C09B4CAF6784 /* Project object */;
+			containerPortal = FCD768C5E94D8DC773AE300F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A66972D83DA81E4BE884DC69;
+			remoteGlobalIDString = A596DD0A3042F9279C7D68B3;
 			remoteInfo = "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView";
+		};
+		B86B9A105655B802950575D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD768C5E94D8DC773AE300F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE2B929554B48B0CB02B40A;
+			remoteInfo = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003BFE2C0EE08106F929C3DC /* Pods-PagedHorizontalView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-umbrella.h"; sourceTree = "<group>"; };
-		049F2E7396F2ADD6CD969FB1 /* Pods-PagedHorizontalView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		08FE04177EA2E79B6132C466 /* Pods-PagedHorizontalView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PagedHorizontalView_Tests.modulemap"; sourceTree = "<group>"; };
-		0AA936B30493CAD13FB64C24 /* Pods-PagedHorizontalView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-environment.h"; sourceTree = "<group>"; };
-		11E959930F7690AC44927A71 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap"; sourceTree = "<group>"; };
-		1FD562920A7705D3BBB2EB1C /* Pods-PagedHorizontalView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Example-resources.sh"; sourceTree = "<group>"; };
-		1FFF4D4E70F11C3B3BA81F07 /* Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap"; sourceTree = "<group>"; };
-		2282AD73C2585BB34AE331D4 /* Pods-PagedHorizontalView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagedHorizontalView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C39C5BF0700517517640891 /* Pods-PagedHorizontalView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3828E58183285D6978DB4819 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A94E4F16F869E033B3AA658 /* Pods-PagedHorizontalView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagedHorizontalView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4250D523CE2B9DDA64D4FA53 /* Pods_PagedHorizontalView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagedHorizontalView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		438E53D59EF1170E6A6780E7 /* Pods-PagedHorizontalView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagedHorizontalView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A4D8C2410FB33C861375002 /* Pods-PagedHorizontalView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagedHorizontalView_Example-dummy.m"; sourceTree = "<group>"; };
-		54D91EDB1B3EF93C009C8985 /* PagedHorizontalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedHorizontalView.swift; sourceTree = "<group>"; };
-		57B38037974EA553A1F6830C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5A839193253C4993160C16CB /* Pods-PagedHorizontalView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5B9DC981B679D82ADD464D59 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m"; sourceTree = "<group>"; };
-		5BB4C0B3AEAAB99BDD12BCA1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5D0553300E1E85895BD671D7 /* Pods-PagedHorizontalView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		61E2C5AEE9364C1EEB7B4E1C /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h"; sourceTree = "<group>"; };
-		672D6E3C6390EF6405EC080A /* PagedHorizontalView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagedHorizontalView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D885DAF8BAAABA38904D88 /* Pods-PagedHorizontalView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6F2D243E4D1D38AA9CF7AAF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78CC8455BE3E5554953F73EB /* PagedHorizontalView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagedHorizontalView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A043E7C0DB74ABC0E4537A /* PagedHorizontalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagedHorizontalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		889DF64C565944B12A03D2AF /* Pods-PagedHorizontalView_Example-PagedHorizontalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView.xcconfig"; sourceTree = "<group>"; };
-		8B858A377AE7FC76FDF1D5BE /* Pods-PagedHorizontalView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Tests-resources.sh"; sourceTree = "<group>"; };
-		8CE701AD6EDED92577978A71 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig"; sourceTree = "<group>"; };
-		9115E9FA10BF290323BBC652 /* Pods-PagedHorizontalView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagedHorizontalView_Tests-dummy.m"; sourceTree = "<group>"; };
-		938472D5FC3803A8A0225EDA /* PagedHorizontalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagedHorizontalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		952BE199EDCFCB48A72BF00E /* Pods-PagedHorizontalView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagedHorizontalView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A8E809A877FEF7C74701CBE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Info.plist"; sourceTree = "<group>"; };
-		AA685F9299C3D2CF27DDA3A5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch"; sourceTree = "<group>"; };
-		AA9DEDF6CE019A425CC77274 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig"; sourceTree = "<group>"; };
-		BC71F1024FFB195AC63AA913 /* Pods-PagedHorizontalView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C1D705C4B1AE7A69C4078FF1 /* Pods-PagedHorizontalView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PagedHorizontalView_Example.modulemap"; sourceTree = "<group>"; };
-		C3375702231C86202C030D7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C87A718EBC82F6C761295195 /* Pods-PagedHorizontalView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC3160E2A8176298E161409D /* Pods-PagedHorizontalView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Tests-environment.h"; sourceTree = "<group>"; };
-		DD02493D068C3739152F1E9A /* Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch"; sourceTree = "<group>"; };
-		E58A2B147E6E11F5682B3255 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig"; sourceTree = "<group>"; };
-		F314E1114F08CAD5FB70FD58 /* Pods_PagedHorizontalView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagedHorizontalView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31F6A383ACD943D243BAF89 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m"; sourceTree = "<group>"; };
-		F78F4BFBF1482B4A87344F12 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h"; sourceTree = "<group>"; };
+		0456B1179DE47E0C7EC86FAD /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m"; sourceTree = "<group>"; };
+		05F59C6F241E945DF86C0438 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch"; sourceTree = "<group>"; };
+		08A66E8CDCBB2BF6EEFE5779 /* Pods-PagedHorizontalView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0A8F54C16FA72B469D849FF5 /* Pods-PagedHorizontalView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Tests-environment.h"; sourceTree = "<group>"; };
+		0BEF3D68A0E1BACF16676669 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E83679C78FFAD12240E8B48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17887B6E9A605E851AE366F8 /* Pods-PagedHorizontalView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PagedHorizontalView_Tests.modulemap"; sourceTree = "<group>"; };
+		1AF1D8B4373F12394B9C8EC1 /* Pods-PagedHorizontalView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2476A577664B8223ADAB3CF1 /* Pods-PagedHorizontalView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2A937D504651324073A844C4 /* Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap"; sourceTree = "<group>"; };
+		309E80B03A69189BB136D544 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		385E1F7ACB94A4413311C11A /* Pods-PagedHorizontalView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-environment.h"; sourceTree = "<group>"; };
+		3D5D37E4790C42E57CCCCCFD /* Pods-PagedHorizontalView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3D75B2E0A17DECA0A58FD6AF /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m"; sourceTree = "<group>"; };
+		400ADF2702F524B5DCC16ED8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Info.plist"; sourceTree = "<group>"; };
+		469FF5D4667B2658FAC48CFA /* PagedHorizontalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagedHorizontalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F655612E8737A35B1653677 /* Pods-PagedHorizontalView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagedHorizontalView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5AA1CCB9EA9B99A22EEF20D0 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap"; sourceTree = "<group>"; };
+		5BB6A54F2A2E34F62D80201C /* Pods-PagedHorizontalView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagedHorizontalView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D01374B2128B9AA5CCA109C /* Pods_PagedHorizontalView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagedHorizontalView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67837F2827452028A5D8D2C6 /* Pods-PagedHorizontalView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		69B15819B6B3C66BE2E790C9 /* Pods-PagedHorizontalView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		71F05DAC0895370904AE8333 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig"; sourceTree = "<group>"; };
+		7218A2B3FF3D389254DF5D93 /* PagedHorizontalView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagedHorizontalView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BCBF28597EAAC89CBE03F9 /* Pods-PagedHorizontalView_Example-PagedHorizontalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView.xcconfig"; sourceTree = "<group>"; };
+		7945AD602843B8D8D6A0320A /* PagedHorizontalView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagedHorizontalView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		82363CBD911933FB999C8105 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h"; sourceTree = "<group>"; };
+		8571440EC4E6A799C3CFB0D0 /* Pods-PagedHorizontalView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagedHorizontalView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CBE270D5E618FF9175EFFB3 /* Pods-PagedHorizontalView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Example-resources.sh"; sourceTree = "<group>"; };
+		98F63BFEB937F69D16A410EE /* Pods-PagedHorizontalView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9F621DF96C713D6FC515A82E /* Pods-PagedHorizontalView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagedHorizontalView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEB292F17F7700456C84E88A /* PagedHorizontalView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagedHorizontalView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BBEC4CC2A003410070D158 /* Pods-PagedHorizontalView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PagedHorizontalView_Example.modulemap"; sourceTree = "<group>"; };
+		B6E2393AA73489E297328E80 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h"; sourceTree = "<group>"; };
+		B92249E68657A4371AE825C7 /* PagedHorizontalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagedHorizontalView.swift; sourceTree = "<group>"; };
+		C335DB739803619C09597854 /* Pods-PagedHorizontalView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagedHorizontalView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0E0005BE91ADF70F991DCA5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig"; sourceTree = "<group>"; };
+		D7E3FDC9F9B934F2E7E6FBE0 /* Pods-PagedHorizontalView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagedHorizontalView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E26FBB42E40FEDE798AD8316 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch"; sourceTree = "<group>"; };
+		E3AC78799F37C34AF78FFD91 /* Pods-PagedHorizontalView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagedHorizontalView_Example-dummy.m"; sourceTree = "<group>"; };
+		E4076391F67082989138BE0F /* Pods_PagedHorizontalView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagedHorizontalView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65998D0E7350CC8D7B5DBA7 /* Pods-PagedHorizontalView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagedHorizontalView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F399CCA8A9EB0AAE52F2EEB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F9933696DAA988791402CF7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9A672E4057147705AFB2A9 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig"; path = "../Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D8C061BBB621CBE22A634F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5216A35FE35D612A7F9FA455 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A5D89FBC808F3BDC18BD577 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA75EAC8B7D77B8148762590 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C81BF9805A8043CE601A7D0 /* Frameworks */ = {
+		19F47490925CB6E8BA05DD5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99E13D19D6F800C96A34C22D /* Frameworks */ = {
+		8A14A28947D856CDCFB59DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBBC796364D71D9B2AF646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978C07081AEBDB63B17E7A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BEF92B751671FAE9400D02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326865896CCD90F0E93337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64766CFD49386F9E8C4A54B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E13BFB4007C12070226A18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B504AAF274793CBA3E7A48BE /* Frameworks */ = {
+		D152F9EAAA7E6EFD04AC2F99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A654FB4982C62E2D73FAD321 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC77EF88712822F56583E661 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2DBCF8C1A333146BE38C347 /* Foundation.framework in Frameworks */,
+				3A6086608CF6D7825502F643 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A315A9A5E72E160C4ACC169 /* Targets Support Files */ = {
+		26D78268209CB74FE9FF9F2D /* Pods-PagedHorizontalView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1DF66C185F2AB37AB050F3BB /* Pods-PagedHorizontalView_Example */,
-				536574CC15C4B54E7EA4FED7 /* Pods-PagedHorizontalView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1435CD1FBDEB4A6450A7B2BC = {
-			isa = PBXGroup;
-			children = (
-				5BB4C0B3AEAAB99BDD12BCA1 /* Podfile */,
-				501137BD12B89BF77EF9F832 /* Development Pods */,
-				6DA405F9F4D195C6426AC6F2 /* Frameworks */,
-				72F92154A780196F9904DE27 /* Products */,
-				0A315A9A5E72E160C4ACC169 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		1DF66C185F2AB37AB050F3BB /* Pods-PagedHorizontalView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				3828E58183285D6978DB4819 /* Info.plist */,
-				C1D705C4B1AE7A69C4078FF1 /* Pods-PagedHorizontalView_Example.modulemap */,
-				3A94E4F16F869E033B3AA658 /* Pods-PagedHorizontalView_Example-acknowledgements.markdown */,
-				2282AD73C2585BB34AE331D4 /* Pods-PagedHorizontalView_Example-acknowledgements.plist */,
-				4A4D8C2410FB33C861375002 /* Pods-PagedHorizontalView_Example-dummy.m */,
-				0AA936B30493CAD13FB64C24 /* Pods-PagedHorizontalView_Example-environment.h */,
-				049F2E7396F2ADD6CD969FB1 /* Pods-PagedHorizontalView_Example-frameworks.sh */,
-				1FD562920A7705D3BBB2EB1C /* Pods-PagedHorizontalView_Example-resources.sh */,
-				003BFE2C0EE08106F929C3DC /* Pods-PagedHorizontalView_Example-umbrella.h */,
-				69D885DAF8BAAABA38904D88 /* Pods-PagedHorizontalView_Example.debug.xcconfig */,
-				5D0553300E1E85895BD671D7 /* Pods-PagedHorizontalView_Example.release.xcconfig */,
+				0BEF3D68A0E1BACF16676669 /* Info.plist */,
+				B0BBEC4CC2A003410070D158 /* Pods-PagedHorizontalView_Example.modulemap */,
+				E65998D0E7350CC8D7B5DBA7 /* Pods-PagedHorizontalView_Example-acknowledgements.markdown */,
+				8571440EC4E6A799C3CFB0D0 /* Pods-PagedHorizontalView_Example-acknowledgements.plist */,
+				E3AC78799F37C34AF78FFD91 /* Pods-PagedHorizontalView_Example-dummy.m */,
+				385E1F7ACB94A4413311C11A /* Pods-PagedHorizontalView_Example-environment.h */,
+				D7E3FDC9F9B934F2E7E6FBE0 /* Pods-PagedHorizontalView_Example-frameworks.sh */,
+				8CBE270D5E618FF9175EFFB3 /* Pods-PagedHorizontalView_Example-resources.sh */,
+				2476A577664B8223ADAB3CF1 /* Pods-PagedHorizontalView_Example-umbrella.h */,
+				98F63BFEB937F69D16A410EE /* Pods-PagedHorizontalView_Example.debug.xcconfig */,
+				1AF1D8B4373F12394B9C8EC1 /* Pods-PagedHorizontalView_Example.release.xcconfig */,
 			);
 			name = "Pods-PagedHorizontalView_Example";
 			path = "Target Support Files/Pods-PagedHorizontalView_Example";
 			sourceTree = "<group>";
 		};
-		501137BD12B89BF77EF9F832 /* Development Pods */ = {
+		3AF722A5214852C0FAC3FB71 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FBE55171C0FF136D6298F31B /* PagedHorizontalView */,
+				84E4320915E7436946F8694D /* PagedHorizontalView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		536574CC15C4B54E7EA4FED7 /* Pods-PagedHorizontalView_Tests */ = {
+		40138720264749A66657E525 /* Pods-PagedHorizontalView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6F2D243E4D1D38AA9CF7AAF9 /* Info.plist */,
-				08FE04177EA2E79B6132C466 /* Pods-PagedHorizontalView_Tests.modulemap */,
-				438E53D59EF1170E6A6780E7 /* Pods-PagedHorizontalView_Tests-acknowledgements.markdown */,
-				952BE199EDCFCB48A72BF00E /* Pods-PagedHorizontalView_Tests-acknowledgements.plist */,
-				9115E9FA10BF290323BBC652 /* Pods-PagedHorizontalView_Tests-dummy.m */,
-				DC3160E2A8176298E161409D /* Pods-PagedHorizontalView_Tests-environment.h */,
-				5A839193253C4993160C16CB /* Pods-PagedHorizontalView_Tests-frameworks.sh */,
-				8B858A377AE7FC76FDF1D5BE /* Pods-PagedHorizontalView_Tests-resources.sh */,
-				2C39C5BF0700517517640891 /* Pods-PagedHorizontalView_Tests-umbrella.h */,
-				C87A718EBC82F6C761295195 /* Pods-PagedHorizontalView_Tests.debug.xcconfig */,
-				BC71F1024FFB195AC63AA913 /* Pods-PagedHorizontalView_Tests.release.xcconfig */,
+				0E83679C78FFAD12240E8B48 /* Info.plist */,
+				17887B6E9A605E851AE366F8 /* Pods-PagedHorizontalView_Tests.modulemap */,
+				9F621DF96C713D6FC515A82E /* Pods-PagedHorizontalView_Tests-acknowledgements.markdown */,
+				5BB6A54F2A2E34F62D80201C /* Pods-PagedHorizontalView_Tests-acknowledgements.plist */,
+				4F655612E8737A35B1653677 /* Pods-PagedHorizontalView_Tests-dummy.m */,
+				0A8F54C16FA72B469D849FF5 /* Pods-PagedHorizontalView_Tests-environment.h */,
+				67837F2827452028A5D8D2C6 /* Pods-PagedHorizontalView_Tests-frameworks.sh */,
+				3D5D37E4790C42E57CCCCCFD /* Pods-PagedHorizontalView_Tests-resources.sh */,
+				69B15819B6B3C66BE2E790C9 /* Pods-PagedHorizontalView_Tests-umbrella.h */,
+				C335DB739803619C09597854 /* Pods-PagedHorizontalView_Tests.debug.xcconfig */,
+				08A66E8CDCBB2BF6EEFE5779 /* Pods-PagedHorizontalView_Tests.release.xcconfig */,
 			);
 			name = "Pods-PagedHorizontalView_Tests";
 			path = "Target Support Files/Pods-PagedHorizontalView_Tests";
 			sourceTree = "<group>";
 		};
-		679628BDF1173C561324700C /* Support Files */ = {
+		4C146F6BF64CAEFBF8BEDC1D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C3375702231C86202C030D7E /* Info.plist */,
-				A8E809A877FEF7C74701CBE8 /* Info.plist */,
-				1FFF4D4E70F11C3B3BA81F07 /* Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap */,
-				889DF64C565944B12A03D2AF /* Pods-PagedHorizontalView_Example-PagedHorizontalView.xcconfig */,
-				8CE701AD6EDED92577978A71 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */,
-				F31F6A383ACD943D243BAF89 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m */,
-				DD02493D068C3739152F1E9A /* Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch */,
-				F78F4BFBF1482B4A87344F12 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h */,
-				11E959930F7690AC44927A71 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap */,
-				E58A2B147E6E11F5682B3255 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig */,
-				AA9DEDF6CE019A425CC77274 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */,
-				5B9DC981B679D82ADD464D59 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m */,
-				AA685F9299C3D2CF27DDA3A5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch */,
-				61E2C5AEE9364C1EEB7B4E1C /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h */,
+				A534A03B461B2983EFF9E6A2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		83ACACF8F9908E2603396256 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9933696DAA988791402CF7D /* Info.plist */,
+				400ADF2702F524B5DCC16ED8 /* Info.plist */,
+				2A937D504651324073A844C4 /* Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap */,
+				72BCBF28597EAAC89CBE03F9 /* Pods-PagedHorizontalView_Example-PagedHorizontalView.xcconfig */,
+				71F05DAC0895370904AE8333 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */,
+				3D75B2E0A17DECA0A58FD6AF /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m */,
+				E26FBB42E40FEDE798AD8316 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch */,
+				82363CBD911933FB999C8105 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h */,
+				5AA1CCB9EA9B99A22EEF20D0 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap */,
+				FC9A672E4057147705AFB2A9 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView.xcconfig */,
+				D0E0005BE91ADF70F991DCA5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */,
+				0456B1179DE47E0C7EC86FAD /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m */,
+				05F59C6F241E945DF86C0438 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch */,
+				B6E2393AA73489E297328E80 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView";
 			sourceTree = "<group>";
 		};
-		6D32EF9DD281260056706D9F /* Classes */ = {
+		84E4320915E7436946F8694D /* PagedHorizontalView */ = {
 			isa = PBXGroup;
 			children = (
-				54D91EDB1B3EF93C009C8985 /* PagedHorizontalView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6DA405F9F4D195C6426AC6F2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B687DCA5D3E4E770618E0029 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		72F92154A780196F9904DE27 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				672D6E3C6390EF6405EC080A /* PagedHorizontalView.bundle */,
-				78CC8455BE3E5554953F73EB /* PagedHorizontalView.bundle */,
-				80A043E7C0DB74ABC0E4537A /* PagedHorizontalView.framework */,
-				938472D5FC3803A8A0225EDA /* PagedHorizontalView.framework */,
-				4250D523CE2B9DDA64D4FA53 /* Pods_PagedHorizontalView_Example.framework */,
-				F314E1114F08CAD5FB70FD58 /* Pods_PagedHorizontalView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		88D737A47F8143283C3DB480 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6D32EF9DD281260056706D9F /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		B687DCA5D3E4E770618E0029 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57B38037974EA553A1F6830C /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FBE55171C0FF136D6298F31B /* PagedHorizontalView */ = {
-			isa = PBXGroup;
-			children = (
-				88D737A47F8143283C3DB480 /* Pod */,
-				679628BDF1173C561324700C /* Support Files */,
+				4C146F6BF64CAEFBF8BEDC1D /* Pod */,
+				83ACACF8F9908E2603396256 /* Support Files */,
 			);
 			name = PagedHorizontalView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		8C24E32803687A49B09B584F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26DD055B264C92719F229B3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7F08110280912CE802F175 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D78268209CB74FE9FF9F2D /* Pods-PagedHorizontalView_Example */,
+				40138720264749A66657E525 /* Pods-PagedHorizontalView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9495C61853DA3D7DE17E98BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7218A2B3FF3D389254DF5D93 /* PagedHorizontalView.bundle */,
+				7945AD602843B8D8D6A0320A /* PagedHorizontalView.bundle */,
+				AEB292F17F7700456C84E88A /* PagedHorizontalView.framework */,
+				469FF5D4667B2658FAC48CFA /* PagedHorizontalView.framework */,
+				5D01374B2128B9AA5CCA109C /* Pods_PagedHorizontalView_Example.framework */,
+				E4076391F67082989138BE0F /* Pods_PagedHorizontalView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A534A03B461B2983EFF9E6A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B92249E68657A4371AE825C7 /* PagedHorizontalView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D26DD055B264C92719F229B3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F399CCA8A9EB0AAE52F2EEB8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5500BF3F47AACA0AF7CEC73 = {
+			isa = PBXGroup;
+			children = (
+				309E80B03A69189BB136D544 /* Podfile */,
+				3AF722A5214852C0FAC3FB71 /* Development Pods */,
+				8C24E32803687A49B09B584F /* Frameworks */,
+				9495C61853DA3D7DE17E98BF /* Products */,
+				8E7F08110280912CE802F175 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		10F24454FBF0064C40F06501 /* Headers */ = {
+		12EBDA70E17091925914ECE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A32B0E90F90DF2A09A646D7 /* Pods-PagedHorizontalView_Example-umbrella.h in Headers */,
+				CBB0FFBCA27AE651754FBBF6 /* Pods-PagedHorizontalView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C7F6F87A98910FB77340ED0 /* Headers */ = {
+		9FB15FE9E283AD016DEF441C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6036463D99AC9C4F04504E45 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h in Headers */,
+				90612D342AE7A1053E9ECB01 /* Pods-PagedHorizontalView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF9A82912FBA0C887F6BB9EA /* Headers */ = {
+		A0B4530CC1089E494297FD94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458E21458D411591B8C78D87 /* Pods-PagedHorizontalView_Tests-umbrella.h in Headers */,
+				4161E562A6BF2673839448A6 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEC8328EEE938D89E7219F45 /* Headers */ = {
+		F01662BC782BA25B1EB6F27F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1663F03E9E5E06D6DAD1BE7E /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-umbrella.h in Headers */,
+				723135F96818743B180E2C9A /* Pods-PagedHorizontalView_Example-PagedHorizontalView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		605AD9C7FB61914C1F2418D3 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView */ = {
+		1EE2B929554B48B0CB02B40A /* Pods-PagedHorizontalView_Tests-PagedHorizontalView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 090D9F9EBDC0B7192467E722 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView" */;
+			buildConfigurationList = 8816843AEECB27FF2F3F9B66 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView" */;
 			buildPhases = (
-				71DCD90B543793AA02C4F0CD /* Sources */,
-				7C81BF9805A8043CE601A7D0 /* Frameworks */,
-				D53576A3D904037ECED5A060 /* Resources */,
+				F2C8286DC33D843196B9A78F /* Sources */,
+				8A14A28947D856CDCFB59DC6 /* Frameworks */,
+				51F088342E9E6C303C2AC6B5 /* Resources */,
+				A0B4530CC1089E494297FD94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5382CD4389408ADF19DA54A /* PBXTargetDependency */,
+			);
+			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
+			productName = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
+			productReference = 469FF5D4667B2658FAC48CFA /* PagedHorizontalView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4693207EF486ADB68A59FD76 /* Pods-PagedHorizontalView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC94185181A51F9674299D6 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example" */;
+			buildPhases = (
+				D913B2030B31F012731F84AC /* Sources */,
+				978C07081AEBDB63B17E7A0B /* Frameworks */,
+				12EBDA70E17091925914ECE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5838B636E2487810E199D0C /* PBXTargetDependency */,
+			);
+			name = "Pods-PagedHorizontalView_Example";
+			productName = "Pods-PagedHorizontalView_Example";
+			productReference = 5D01374B2128B9AA5CCA109C /* Pods_PagedHorizontalView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B12E2411A4E4B7D0BFCDA2A /* Pods-PagedHorizontalView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1D9DA6D1F83757A70C6D18 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests" */;
+			buildPhases = (
+				8864E8D0BEFB17C8B5BD0093 /* Sources */,
+				D152F9EAAA7E6EFD04AC2F99 /* Frameworks */,
+				9FB15FE9E283AD016DEF441C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76058B3435841723B9A7000 /* PBXTargetDependency */,
+			);
+			name = "Pods-PagedHorizontalView_Tests";
+			productName = "Pods-PagedHorizontalView_Tests";
+			productReference = E4076391F67082989138BE0F /* Pods_PagedHorizontalView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B737BD84F2A9524083207F6 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B40E4AB7736030494D835D /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView" */;
+			buildPhases = (
+				FC9049236C1BB3FDEE355686 /* Sources */,
+				19F47490925CB6E8BA05DD5D /* Frameworks */,
+				C503E993B3B6620C722D72CB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -349,35 +404,16 @@
 			);
 			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView";
 			productName = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView";
-			productReference = 672D6E3C6390EF6405EC080A /* PagedHorizontalView.bundle */;
+			productReference = 7218A2B3FF3D389254DF5D93 /* PagedHorizontalView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		768A7067EC000F90CB08411B /* Pods-PagedHorizontalView_Tests-PagedHorizontalView */ = {
+		A596DD0A3042F9279C7D68B3 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9A3B3ABA916BDFC04E49A96 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView" */;
+			buildConfigurationList = 9DD72FD15232D03355D93EDB /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView" */;
 			buildPhases = (
-				9A9B1DB2D5204745B8533054 /* Sources */,
-				4A5D89FBC808F3BDC18BD577 /* Frameworks */,
-				B5AF70401EC78E7DB31E4FF3 /* Resources */,
-				EEC8328EEE938D89E7219F45 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4784956BB2E9D1B1090EFDCE /* PBXTargetDependency */,
-			);
-			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
-			productName = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
-			productReference = 938472D5FC3803A8A0225EDA /* PagedHorizontalView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A66972D83DA81E4BE884DC69 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6888552B0439C03E68246F2 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView" */;
-			buildPhases = (
-				52F72B63535EA3674C17927F /* Sources */,
-				99E13D19D6F800C96A34C22D /* Frameworks */,
-				8FD6BEB5CB2958DEF8C68280 /* Resources */,
+				2401F0A926605F8C33B0E296 /* Sources */,
+				C1E13BFB4007C12070226A18 /* Frameworks */,
+				2D3CB7D84F25417A721021EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -385,207 +421,254 @@
 			);
 			name = "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView";
 			productName = "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView";
-			productReference = 78CC8455BE3E5554953F73EB /* PagedHorizontalView.bundle */;
+			productReference = 7945AD602843B8D8D6A0320A /* PagedHorizontalView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		B588B4FA579487CAC854D24C /* Pods-PagedHorizontalView_Example */ = {
+		FA28F1DE30CCD3637F6636A4 /* Pods-PagedHorizontalView_Example-PagedHorizontalView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE218724AE872709FE342A61 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example" */;
+			buildConfigurationList = 4806135D6F9D0D89E8BD3083 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView" */;
 			buildPhases = (
-				42C14F5DD23479772F0E370D /* Sources */,
-				FC77EF88712822F56583E661 /* Frameworks */,
-				10F24454FBF0064C40F06501 /* Headers */,
+				FB5726CE5B7F44E635B3CC0A /* Sources */,
+				A326865896CCD90F0E93337C /* Frameworks */,
+				FFB31F27BF3000E70B998B4A /* Resources */,
+				F01662BC782BA25B1EB6F27F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B3E05C75E6C7082FC2D38AA /* PBXTargetDependency */,
-			);
-			name = "Pods-PagedHorizontalView_Example";
-			productName = "Pods-PagedHorizontalView_Example";
-			productReference = 4250D523CE2B9DDA64D4FA53 /* Pods_PagedHorizontalView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C27F8116B0BB2BDBBC2153C0 /* Pods-PagedHorizontalView_Example-PagedHorizontalView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11AE143F4D00F5D3BC3A16E0 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView" */;
-			buildPhases = (
-				EC726011A9008DBC32CED476 /* Sources */,
-				2D8C061BBB621CBE22A634F4 /* Frameworks */,
-				03730785922089E9D3543BF7 /* Resources */,
-				3C7F6F87A98910FB77340ED0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9359D7822466455B6BCCAA9 /* PBXTargetDependency */,
+				7BD881FE7446993AA6258F4D /* PBXTargetDependency */,
 			);
 			name = "Pods-PagedHorizontalView_Example-PagedHorizontalView";
 			productName = "Pods-PagedHorizontalView_Example-PagedHorizontalView";
-			productReference = 80A043E7C0DB74ABC0E4537A /* PagedHorizontalView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DF1F40AD5E98B2F501A61B1F /* Pods-PagedHorizontalView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB27D8472F079DA5276BE1F8 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests" */;
-			buildPhases = (
-				41ED172A164A0B53E264DA4D /* Sources */,
-				B504AAF274793CBA3E7A48BE /* Frameworks */,
-				BF9A82912FBA0C887F6BB9EA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18D87B3B66AA1E0E07C31BBF /* PBXTargetDependency */,
-			);
-			name = "Pods-PagedHorizontalView_Tests";
-			productName = "Pods-PagedHorizontalView_Tests";
-			productReference = F314E1114F08CAD5FB70FD58 /* Pods_PagedHorizontalView_Tests.framework */;
+			productReference = AEB292F17F7700456C84E88A /* PagedHorizontalView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		06EF27D4F656C09B4CAF6784 /* Project object */ = {
+		FCD768C5E94D8DC773AE300F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 9AE57C660927984058336C6E /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 1F82D29708B8B0CF0B7C407B /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1435CD1FBDEB4A6450A7B2BC;
-			productRefGroup = 72F92154A780196F9904DE27 /* Products */;
+			mainGroup = D5500BF3F47AACA0AF7CEC73;
+			productRefGroup = 9495C61853DA3D7DE17E98BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B588B4FA579487CAC854D24C /* Pods-PagedHorizontalView_Example */,
-				C27F8116B0BB2BDBBC2153C0 /* Pods-PagedHorizontalView_Example-PagedHorizontalView */,
-				A66972D83DA81E4BE884DC69 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView */,
-				DF1F40AD5E98B2F501A61B1F /* Pods-PagedHorizontalView_Tests */,
-				768A7067EC000F90CB08411B /* Pods-PagedHorizontalView_Tests-PagedHorizontalView */,
-				605AD9C7FB61914C1F2418D3 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView */,
+				4693207EF486ADB68A59FD76 /* Pods-PagedHorizontalView_Example */,
+				FA28F1DE30CCD3637F6636A4 /* Pods-PagedHorizontalView_Example-PagedHorizontalView */,
+				A596DD0A3042F9279C7D68B3 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView */,
+				4B12E2411A4E4B7D0BFCDA2A /* Pods-PagedHorizontalView_Tests */,
+				1EE2B929554B48B0CB02B40A /* Pods-PagedHorizontalView_Tests-PagedHorizontalView */,
+				8B737BD84F2A9524083207F6 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03730785922089E9D3543BF7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CF829012E6FFC509C5D7D8E /* PagedHorizontalView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FD6BEB5CB2958DEF8C68280 /* Resources */ = {
+		2D3CB7D84F25417A721021EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5AF70401EC78E7DB31E4FF3 /* Resources */ = {
+		51F088342E9E6C303C2AC6B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A793E488C9ABFEBA2E319F9 /* PagedHorizontalView.bundle in Resources */,
+				B27356FA50A9D2422B9A5AD8 /* PagedHorizontalView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D53576A3D904037ECED5A060 /* Resources */ = {
+		C503E993B3B6620C722D72CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB31F27BF3000E70B998B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39D64504EFE54914C007F83 /* PagedHorizontalView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41ED172A164A0B53E264DA4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3581C87EE6506A1625AAC313 /* Pods-PagedHorizontalView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42C14F5DD23479772F0E370D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AE43514809CACB55A785D69 /* Pods-PagedHorizontalView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52F72B63535EA3674C17927F /* Sources */ = {
+		2401F0A926605F8C33B0E296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71DCD90B543793AA02C4F0CD /* Sources */ = {
+		8864E8D0BEFB17C8B5BD0093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5868DAFD94F52E997EE5558 /* Pods-PagedHorizontalView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A9B1DB2D5204745B8533054 /* Sources */ = {
+		D913B2030B31F012731F84AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFEE16094088E39A8ECFF71D /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m in Sources */,
-				54D91EDD1B3EF93C009C8985 /* PagedHorizontalView.swift in Sources */,
+				ABF2B13BBE818CC6342220DC /* Pods-PagedHorizontalView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC726011A9008DBC32CED476 /* Sources */ = {
+		F2C8286DC33D843196B9A78F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7CF184D2BDE18F67C21F48 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m in Sources */,
-				54D91EDC1B3EF93C009C8985 /* PagedHorizontalView.swift in Sources */,
+				3FF56E5CB3A484FA16D889EC /* PagedHorizontalView.swift in Sources */,
+				56C1C465C6CD5573B2FCF297 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5726CE5B7F44E635B3CC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8B9018C713EAD2DA9BA237 /* PagedHorizontalView.swift in Sources */,
+				03AB74CF465029B2CEADA50C /* Pods-PagedHorizontalView_Example-PagedHorizontalView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9049236C1BB3FDEE355686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18D87B3B66AA1E0E07C31BBF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
-			target = 768A7067EC000F90CB08411B /* Pods-PagedHorizontalView_Tests-PagedHorizontalView */;
-			targetProxy = 420ECF0871CCEFA9D38407B2 /* PBXContainerItemProxy */;
-		};
-		4784956BB2E9D1B1090EFDCE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView";
-			target = 605AD9C7FB61914C1F2418D3 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView */;
-			targetProxy = 7A8F65E87B5EAAD0543FB597 /* PBXContainerItemProxy */;
-		};
-		6B3E05C75E6C7082FC2D38AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PagedHorizontalView_Example-PagedHorizontalView";
-			target = C27F8116B0BB2BDBBC2153C0 /* Pods-PagedHorizontalView_Example-PagedHorizontalView */;
-			targetProxy = 8538EDC82A3D03DB1767EFB9 /* PBXContainerItemProxy */;
-		};
-		E9359D7822466455B6BCCAA9 /* PBXTargetDependency */ = {
+		7BD881FE7446993AA6258F4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView";
-			target = A66972D83DA81E4BE884DC69 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView */;
-			targetProxy = 9D34B0F88075D072FF2FB8FE /* PBXContainerItemProxy */;
+			target = A596DD0A3042F9279C7D68B3 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView */;
+			targetProxy = 6384ED73FEA5B45B6BC4FE74 /* PBXContainerItemProxy */;
+		};
+		A76058B3435841723B9A7000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView";
+			target = 1EE2B929554B48B0CB02B40A /* Pods-PagedHorizontalView_Tests-PagedHorizontalView */;
+			targetProxy = B86B9A105655B802950575D9 /* PBXContainerItemProxy */;
+		};
+		B5382CD4389408ADF19DA54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView";
+			target = 8B737BD84F2A9524083207F6 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView */;
+			targetProxy = 059C75050BE0D619D766533C /* PBXContainerItemProxy */;
+		};
+		D5838B636E2487810E199D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PagedHorizontalView_Example-PagedHorizontalView";
+			target = FA28F1DE30CCD3637F6636A4 /* Pods-PagedHorizontalView_Example-PagedHorizontalView */;
+			targetProxy = 1431EDAFCADADA90B57F1FD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AC21CD09019BDB53E6DD97E /* Release */ = {
+		03B2BCD0F46A61D17E69B259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A66E8CDCBB2BF6EEFE5779 /* Pods-PagedHorizontalView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Pods-PagedHorizontalView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PagedHorizontalView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1136F3F5E67A6658D0598385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E0005BE91ADF70F991DCA5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PagedHorizontalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		266A536D4FF8F6F2AB6CEA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F05DAC0895370904AE8333 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PagedHorizontalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53D0015A4437DDF1202430CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -612,16 +695,59 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2104E45B8CBC9CE60B58FCB7 /* Debug */ = {
+		6B7306D9DC7477BC8B474098 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9DEDF6CE019A425CC77274 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
+			baseConfigurationReference = C335DB739803619C09597854 /* Pods-PagedHorizontalView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Pods-PagedHorizontalView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PagedHorizontalView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		733A183E33C332D415A5E929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E0005BE91ADF70F991DCA5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PagedHorizontalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7CE10775726556D4F374528D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E0005BE91ADF70F991DCA5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -632,7 +758,63 @@
 			};
 			name = Debug;
 		};
-		2283BBDE3BA96651F2045AA5 /* Debug */ = {
+		90EB019EAC1CADB91BC927E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F05DAC0895370904AE8333 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PagedHorizontalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		93ECC77BFF603FF977D45C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F63BFEB937F69D16A410EE /* Pods-PagedHorizontalView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Example/Pods-PagedHorizontalView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PagedHorizontalView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A3E8A28C584AA673E29A31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F05DAC0895370904AE8333 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PagedHorizontalView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A313222FAEEE099101A8BC5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -664,59 +846,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2EBC7CF944DCE4E0DA915037 /* Release */ = {
+		CD60F15AD93D2B0E2627B072 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE701AD6EDED92577978A71 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PagedHorizontalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3E76AD9F4F815A7B538E6B41 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69D885DAF8BAAABA38904D88 /* Pods-PagedHorizontalView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Example/Pods-PagedHorizontalView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PagedHorizontalView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7A12A17A22FA6A24B5A21E1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9DEDF6CE019A425CC77274 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
+			baseConfigurationReference = D0E0005BE91ADF70F991DCA5 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -728,66 +867,9 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PagedHorizontalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD5C9DB61E86CCDD754AE3CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C87A718EBC82F6C761295195 /* Pods-PagedHorizontalView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Pods-PagedHorizontalView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PagedHorizontalView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C64A513E97057B521A4EDDFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE701AD6EDED92577978A71 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = PagedHorizontalView;
 				SDKROOT = iphoneos;
@@ -799,9 +881,9 @@
 			};
 			name = Debug;
 		};
-		C7D93287F7C55E6E30C8D2DC /* Release */ = {
+		D421A6F44EB14CA9941AA063 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D0553300E1E85895BD671D7 /* Pods-PagedHorizontalView_Example.release.xcconfig */;
+			baseConfigurationReference = 1AF1D8B4373F12394B9C8EC1 /* Pods-PagedHorizontalView_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -812,7 +894,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Example/Pods-PagedHorizontalView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -828,9 +910,9 @@
 			};
 			name = Release;
 		};
-		CD71A6CC6B8D1013A60984C5 /* Release */ = {
+		DF0CEC60B93A5113780D5179 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE701AD6EDED92577978A71 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
+			baseConfigurationReference = 71F05DAC0895370904AE8333 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -842,78 +924,9 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Pods-PagedHorizontalView_Example-PagedHorizontalView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Example-PagedHorizontalView/Pods-PagedHorizontalView_Example-PagedHorizontalView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PagedHorizontalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D0E01FA8F2FE39658B73EC9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC71F1024FFB195AC63AA913 /* Pods-PagedHorizontalView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests/Pods-PagedHorizontalView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PagedHorizontalView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D1A2B6B552FAAE430C17988E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE701AD6EDED92577978A71 /* Pods-PagedHorizontalView_Example-PagedHorizontalView-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PagedHorizontalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DCA21B4C5FACF8D0DA3300D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9DEDF6CE019A425CC77274 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PagedHorizontalView_Tests-PagedHorizontalView/Pods-PagedHorizontalView_Tests-PagedHorizontalView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = PagedHorizontalView;
 				SDKROOT = iphoneos;
@@ -924,87 +937,74 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		EE3F8380AE5B2DA7B529B94E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA9DEDF6CE019A425CC77274 /* Pods-PagedHorizontalView_Tests-PagedHorizontalView-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PagedHorizontalView_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PagedHorizontalView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		090D9F9EBDC0B7192467E722 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView" */ = {
+		1D1D9DA6D1F83757A70C6D18 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2104E45B8CBC9CE60B58FCB7 /* Debug */,
-				EE3F8380AE5B2DA7B529B94E /* Release */,
+				6B7306D9DC7477BC8B474098 /* Debug */,
+				03B2BCD0F46A61D17E69B259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11AE143F4D00F5D3BC3A16E0 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView" */ = {
+		1F82D29708B8B0CF0B7C407B /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C64A513E97057B521A4EDDFA /* Debug */,
-				CD71A6CC6B8D1013A60984C5 /* Release */,
+				A313222FAEEE099101A8BC5B /* Debug */,
+				53D0015A4437DDF1202430CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AE57C660927984058336C6E /* Build configuration list for PBXProject "Pods" */ = {
+		4806135D6F9D0D89E8BD3083 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2283BBDE3BA96651F2045AA5 /* Debug */,
-				0AC21CD09019BDB53E6DD97E /* Release */,
+				DF0CEC60B93A5113780D5179 /* Debug */,
+				266A536D4FF8F6F2AB6CEA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB27D8472F079DA5276BE1F8 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests" */ = {
+		67B40E4AB7736030494D835D /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView-PagedHorizontalView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD5C9DB61E86CCDD754AE3CD /* Debug */,
-				D0E01FA8F2FE39658B73EC9A /* Release */,
+				7CE10775726556D4F374528D /* Debug */,
+				733A183E33C332D415A5E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6888552B0439C03E68246F2 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView" */ = {
+		6DC94185181A51F9674299D6 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1A2B6B552FAAE430C17988E /* Debug */,
-				2EBC7CF944DCE4E0DA915037 /* Release */,
+				93ECC77BFF603FF977D45C71 /* Debug */,
+				D421A6F44EB14CA9941AA063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9A3B3ABA916BDFC04E49A96 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView" */ = {
+		8816843AEECB27FF2F3F9B66 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Tests-PagedHorizontalView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCA21B4C5FACF8D0DA3300D2 /* Debug */,
-				7A12A17A22FA6A24B5A21E1D /* Release */,
+				CD60F15AD93D2B0E2627B072 /* Debug */,
+				1136F3F5E67A6658D0598385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE218724AE872709FE342A61 /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example" */ = {
+		9DD72FD15232D03355D93EDB /* Build configuration list for PBXNativeTarget "Pods-PagedHorizontalView_Example-PagedHorizontalView-PagedHorizontalView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E76AD9F4F815A7B538E6B41 /* Debug */,
-				C7D93287F7C55E6E30C8D2DC /* Release */,
+				9A3E8A28C584AA673E29A31F /* Debug */,
+				90EB019EAC1CADB91BC927E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 06EF27D4F656C09B4CAF6784 /* Project object */;
+	rootObject = FCD768C5E94D8DC773AE300F /* Project object */;
 }

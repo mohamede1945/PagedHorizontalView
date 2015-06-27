@@ -44,6 +44,8 @@ public class PagedHorizontalView: UIView {
     /// Represents the collection view property.
     @IBOutlet public weak var collectionView: UICollectionView! {
         didSet {
+            assert(collectionView.collectionViewLayout is UICollectionViewFlowLayout,
+                "collectionViewLayout should be of type 'UICollectionViewFlowLayout'")
             let flowLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
             flowLayout.scrollDirection = .Horizontal
             flowLayout.minimumInteritemSpacing = 0
@@ -61,9 +63,7 @@ public class PagedHorizontalView: UIView {
     /// the current page
     public dynamic var currentIndex: Int = 0 {
         didSet {
-            pageControl?.currentPage = currentIndex
-            nextButton?.enabled = currentIndex < collectionView.numberOfItemsInSection(0) - 1
-            previousButton?.enabled = currentIndex > 0
+            updateAccessoryViews()
         }
     }
 
@@ -109,6 +109,22 @@ public class PagedHorizontalView: UIView {
         currentIndex = page
         collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: currentIndex, inSection: 0),
             atScrollPosition: .Left, animated: animated)
+    }
+
+    override public func layoutSubviews() {
+        super.layoutSubviews()
+        collectionView.performBatchUpdates(nil, completion: nil)
+        moveToPage(currentIndex, animated: false)
+    }
+
+    /**
+    Update accessory views (i.e. UIPageControl, UIButtons).
+    */
+    func updateAccessoryViews() {
+        pageControl?.numberOfPages = collectionView.numberOfItemsInSection(0)
+        pageControl?.currentPage = currentIndex
+        nextButton?.enabled = currentIndex < collectionView.numberOfItemsInSection(0) - 1
+        previousButton?.enabled = currentIndex > 0
     }
 }
 
@@ -160,6 +176,4 @@ extension PagedHorizontalView : UICollectionViewDelegateFlowLayout {
         let page = (scrollView.contentOffset.x + (0.5 * width)) / width
         currentIndex = Int(page)
     }
-    
-
 }

@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        horizontalView.pageControl?.numberOfPages = items.count
+//        horizontalView.pageControl?.numberOfPages = items.count
     }
 }
 
