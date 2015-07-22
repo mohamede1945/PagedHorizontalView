@@ -61,7 +61,7 @@ To use PagedHorizontalView with a project targeting iOS 7, you must include Page
 
 ## Author
 
-Mohamed Afifi, mohamede1945
+Mohamed Afifi, mohamede1945@gmail.com
 
 ## License
 
