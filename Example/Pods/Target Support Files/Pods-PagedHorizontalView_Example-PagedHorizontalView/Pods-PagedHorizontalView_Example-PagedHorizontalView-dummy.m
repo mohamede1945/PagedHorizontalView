@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_PagedHorizontalView_Example_PagedHorizontalView : NSObject
-@end
-@implementation PodsDummy_Pods_PagedHorizontalView_Example_PagedHorizontalView
-@end

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PagedHorizontalView"
-  s.version          = "1.0.0"
+  s.version          = "2.0.0"
   s.summary          = "A horizontal scroller with optional pageControl and/or next and previous buttons"
   s.description      = <<-DESC
 A horizontal scoller view that makes its collection view cells full screen
@@ -27,9 +27,6 @@ It doesn't affect the appearance of the controls and doesn't implement the colle
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'PagedHorizontalView' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'PagedHorizontalView/**/*'
 
 end

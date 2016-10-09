@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/PagedHorizontalView.svg?style=flat)](http://cocoapods.org/pods/PagedHorizontalView)
 [![Platform](https://img.shields.io/cocoapods/p/PagedHorizontalView.svg?style=flat)](http://cocoapods.org/pods/PagedHorizontalView)
 
+**Supports Swift 3**
+
 A horizontal scoller view that makes its collection view cells full screen
 and can optionally wire UIPageControl and a previous and next UIbuttons.
 
@@ -13,7 +15,8 @@ It doesn't affect the appearance of the controls and doesn't implement the colle
 ## Requirements
 
 - iOS 7.0+ / Mac OS X 10.9+
-- Xcode 6.3
+- Xcode 8.0
+- Swift 3.0
 
 ## Usage
 
