@@ -62,7 +62,7 @@ open class PagedHorizontalView: UIView {
     fileprivate var endDragging = false
 
     /// the current page
-    open dynamic var currentIndex: Int = 0 {
+    @objc open dynamic var currentIndex: Int = 0 {
         didSet {
             updateAccessoryViews()
         }
