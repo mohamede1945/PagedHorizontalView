@@ -27,6 +27,6 @@ It doesn't affect the appearance of the controls and doesn't implement the colle
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'PagedHorizontalView/**/*'
+  s.source_files = 'PagedHorizontalView/**/*.{swift,h}'
 
 end
